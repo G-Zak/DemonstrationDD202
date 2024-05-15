@@ -111,7 +111,7 @@ class _IMCCalculatorState extends State<IMCCalculator> {
     double imc = poids / (taille * taille);
     imcResult = imc;
 
-    if (imc < 19) {
+    if (imc < 20) {
       category = 'Maigre';
     } else if (imc < 22) {
       category = 'Normale';
